@@ -1,7 +1,7 @@
-title: Ramulator+DRAM Bender Tutorial @ ICS 2026
-description: Cutting-Edge Infrastructures for Real and Future Memory System Evaluation @ ICS 2026
+title: Ramulator+DRAM Bender Tutorial @ MICRO 2026
+description: Cutting-Edge Infrastructures for Real and Future Memory System Evaluation @ MICRO 2026
 baseurl: ""
-url: "https://olgunataberk.github.io/rndb-ics26"
+url: "https://olgunataberk.github.io/rndb-micro26"
 
 # Theme settings
 # remote_theme: pages-themes/primer@v0.6.0
@@ -17,9 +17,9 @@ google_analytics:
 workshop:
   title: "Ramulator+DRAM Bender Tutorial"
   full_title: "Cutting-Edge Infrastructures for Real and Future Memory System Evaluation"
-  date: "July 6th, 2026"
-  location: "Belfast, Northern Ireland, United Kingdom"
-  venue: "Assembly Buildings Conference Centre, 2-10 Fisherwick Place, Belfast, BT1 6DW"
-  conference: "ICS 2026"
-  conference_full: "ACM International Conference on Supercomputing"
+  date: "October 31st, 2026 (Tentative)"
+  location: "Athens, Greece"
+  venue: "TBA (co-located with MICRO 2026)"
+  conference: "MICRO 2026"
+  conference_full: "59th IEEE/ACM International Symposium on Microarchitecture"
   livestream: "TBD"

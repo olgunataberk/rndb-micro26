@@ -4,7 +4,7 @@ layout: default
 
 <!-- Navigation Bar -->
 <nav class="nav-bar">
-  <a href="#" class="nav-brand">3rd Ramulator & DRAM Bender Tutorial @ ICS26</a>
+  <a href="#" class="nav-brand">4th Ramulator & DRAM Bender Tutorial @ MICRO'26</a>
   <div class="nav-links">
     <a href="#about">About</a>
     <a href="#cfp">Call for Papers</a>
@@ -18,13 +18,13 @@ layout: default
 
 <!-- Hero Section -->
 <div class="hero-section">
-  <div class="hero-date">JULY 6<sup>th</sup>, 2026</div>
-  <h1 class="hero-title">3rd Ramulator & DRAM Bender Tutorial</h1>
+  <div class="hero-date">OCTOBER 31<sup>st</sup>, 2026 &nbsp;·&nbsp; TENTATIVE</div>
+  <h1 class="hero-title">4th Ramulator & DRAM Bender Tutorial</h1>
   <h2 class="hero-subtitle">Cutting-Edge Infrastructures<br/>for Real and Future Memory System Evaluation</h2>
-  <p class="hero-conference">In conjunction with the ACM International Conference on Supercomputing 2026 (ICS 2026)</p>
-  <p class="hero-location">Belfast, Northern Ireland, United Kingdom</p>
+  <p class="hero-conference">In conjunction with the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)</p>
+  <p class="hero-location">Athens, Greece</p>
   <div class="hero-buttons">
-    <a href="https://dipsa-qub.github.io/ICS2026-webpage/" class="btn btn-primary" target="_blank">Register Now</a>
+    <a href="https://www.microarch.org/micro59/" class="btn btn-primary" target="_blank">MICRO 2026 Website</a>
   </div>
 </div>
 
@@ -132,9 +132,9 @@ We especially encourage early-stage research, work-in-progress results, experime
 
 <div class="topics-grid">
   <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Page limit:</strong> 4 pages</div>
-  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Format:</strong> <a href="https://dipsa-qub.github.io/ICS2026-webpage/for-authors/information.html">ACM ICS 2026 template</a></div>
-  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Deadline:</strong> 21 May, 2026 (AoE)</div>
-  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Submission form:</strong> <a href="https://forms.gle/Hfa2pfGD7BS7jXJi6">https://forms.gle/Hfa2pfGD7BS7jXJi6</a></div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Format:</strong> <a href="https://www.microarch.org/micro59/" target="_blank">IEEE/ACM MICRO 2026 template</a></div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Deadline:</strong> TBD</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Submission form:</strong> TBD</div>
 </div>
 
 <div class="contact-section">
@@ -173,14 +173,14 @@ We especially encourage early-stage research, work-in-progress results, experime
           <td class="duration-cell">45 min</td>
           <td class="speaker-cell">Onur Mutlu</td>
           <td>Tools for Evaluating Memory and Memory-Centric Computing DRAM, Storage, Virtual Memory</td>
-          <td class="slides-cell"><a href="https://people.inf.ethz.ch/omutlu/pub/onur-R&DB-Tutorial-ToolsForEvaluatingMemory-6-July-2026.pptx" target="_blank" rel="noopener">Download</a></td>
+          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
         </tr>
         <tr>
           <td class="time-cell">09:50-10:30</td>
           <td class="duration-cell">40 min</td>
           <td class="speaker-cell">Ataberk Olgun</td>
           <td>DRAM Bender (Introduction + Research Highlights)</td>
-          <td class="slides-cell"><a href="https://olgunataberk.github.io/rndb-ics26/slides/rndb_workshop_ataberk_ics26.pptx" target="_blank" rel="noopener">Download</a></td>
+          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
         </tr>
       </tbody>
     </table>
@@ -206,7 +206,7 @@ We especially encourage early-stage research, work-in-progress results, experime
           <td class="duration-cell">20 min</td>
           <td class="speaker-cell">Antonino Tumeo</td>
           <td>Realistic DRAM Timing for HLS: Closing the Memory Fidelity Gap with Ramulator-Backed Co-Simulation</td>
-          <td class="slides-cell"><a href="https://olgunataberk.github.io/rndb-ics26/slides/antonino_slides.pdf" target="_blank" rel="noopener">Download</a></td>
+          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
         </tr>
         <tr>
           <td class="time-cell">11:20-11:50</td>
@@ -256,13 +256,9 @@ We especially encourage early-stage research, work-in-progress results, experime
 
 <div class="livestream-section">
   <h3>🔴 Can't attend in person? Join us live!</h3>
-  <p>The tutorial will be livestreamed on YouTube. A replay will also be available afterwards.</p>
-  
-  <div class="youtube-embed">
-    <iframe src="https://www.youtube.com/embed/9-_8c79oR3E?si=Q_nQIfLZMe_QZmAv" title="Ramulator & DRAM Bender Tutorial Livestream" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-  
-  <a href="https://youtu.be/9-_8c79oR3E" class="livestream-link" target="_blank">▶️ Watch on YouTube</a>
+  <p>The tutorial will be livestreamed on YouTube, and a replay will be available afterwards. The stream link will be announced here closer to the event.</p>
+  <p style="margin-top:1rem;font-weight:600;">Livestream link: <span class="slides-unavailable">To be announced</span></p>
+  <p>In the meantime, recordings of our previous editions are available on the <a href="https://www.youtube.com/@SAFARI-ETH-Zurich" target="_blank">SAFARI Research Group YouTube channel</a>.</p>
 </div>
 
 ---
@@ -342,13 +338,13 @@ We especially encourage early-stage research, work-in-progress results, experime
 <div class="event-grid">
   <div class="event-info">
     <h3>Venue</h3>
-    <p><strong>Assembly Buildings Conference Centre</strong></p>
-    <p>2-10 Fisherwick Place<br>Belfast, BT1 6DW<br>Northern Ireland, United Kingdom</p>
-    <p>The tutorial will be held in conjunction with <a href="https://dipsa-qub.github.io/ICS2026-webpage/" target="_blank">ICS 2026</a>.</p>
-    <p>For registration and accommodation information, please visit the <a href="https://dipsa-qub.github.io/ICS2026-webpage/" target="_blank">ICS 2026 website</a>.</p>
+    <p><strong>Athens, Greece</strong></p>
+    <p>Exact venue to be announced.<br>October 31 – November 4, 2026</p>
+    <p>The tutorial will be held in conjunction with <a href="https://www.microarch.org/micro59/" target="_blank">MICRO 2026</a>, the 59th IEEE/ACM International Symposium on Microarchitecture.</p>
+    <p>For registration and accommodation information, please visit the <a href="https://www.microarch.org/micro59/" target="_blank">MICRO 2026 website</a>.</p>
   </div>
   <div class="event-map">
-    <iframe src="https://www.google.com/maps?q=Assembly%20Buildings%20Conference%20Centre%202-10%20Fisherwick%20Place%20Belfast%20BT1%206DW&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps?q=Athens%2C%20Greece&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
 
@@ -365,6 +361,6 @@ We especially encourage early-stage research, work-in-progress results, experime
 ---
 
 <div class="footer-section">
-  <p><b>Ramulator & DRAM Bender Tutorial@ICS'26</b> | Cutting-Edge Infrastructures<br>for Real and Future Memory System Evaluation Tutorial</p>
-  <p>In conjunction with <a href="https://dipsa-qub.github.io/ICS2026-webpage/" target="_blank">ICS 2026</a> | Belfast, Northern Ireland, United Kingdom</p>
+  <p><b>Ramulator & DRAM Bender Tutorial@MICRO'26</b> | Cutting-Edge Infrastructures<br>for Real and Future Memory System Evaluation Tutorial</p>
+  <p>In conjunction with <a href="https://www.microarch.org/micro59/" target="_blank">MICRO 2026</a> | Athens, Greece</p>
 </div>

@@ -1,22 +1,22 @@
 ---
 ---
 
-/* MCCSys 2026 - Custom Styles */
-/* Blue theme with modern enhancements */
+/* Ramulator + DRAM Bender Tutorial @ MICRO 2026 - Custom Styles */
+/* MICRO red theme with modern enhancements */
 
 :root {
-  --primary-color: #1e5ba8;
-  --primary-light: #3a7bc8;
-  --primary-dark: #124178;
-  --accent-color: #318fdd;
-  --accent-light: #4ba2e9;
+  --primary-color: #b01c2e;
+  --primary-light: #d1354d;
+  --primary-dark: #7e1626;
+  --accent-color: #e23b52;
+  --accent-light: #ef5f73;
   --text-color: #2d2d2d;
   --text-light: #555555;
-  --bg-light: #f7f9fc;
-  --bg-gradient: linear-gradient(135deg, #1e5ba8 0%, #3a7bc8 50%, #318fdd 100%);
-  --card-shadow: 0 4px 15px rgba(30, 91, 168, 0.15);
+  --bg-light: #fdf5f6;
+  --bg-gradient: linear-gradient(135deg, #7e1626 0%, #b01c2e 50%, #d1354d 100%);
+  --card-shadow: 0 4px 15px rgba(176, 28, 46, 0.15);
   --border-radius: 12px;
-  --organizer-bg: #ecf3ff;
+  --organizer-bg: #fbe9ec;
 }
 
 /* Reset and Base Styles */
@@ -41,8 +41,8 @@ body {
   padding: 0.8rem 2rem;
   margin: 0 -2rem 2rem -2rem;
   z-index: 100;
-  border-bottom: 1px solid rgba(30, 91, 168, 0.1);
-  box-shadow: 0 2px 20px rgba(30, 91, 168, 0.08);
+  border-bottom: 1px solid rgba(176, 28, 46, 0.1);
+  box-shadow: 0 2px 20px rgba(176, 28, 46, 0.08);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -91,7 +91,7 @@ body {
   background: var(--primary-color);
   color: white !important;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(30, 91, 168, 0.3);
+  box-shadow: 0 4px 15px rgba(176, 28, 46, 0.3);
 }
 
 /* Legacy support */
@@ -104,9 +104,9 @@ body {
   padding: 1rem 2rem;
   margin: 0 -2rem 2rem -2rem;
   z-index: 100;
-  border-bottom: 1px solid rgba(30, 91, 168, 0.1);
+  border-bottom: 1px solid rgba(176, 28, 46, 0.1);
   text-align: center;
-  box-shadow: 0 2px 20px rgba(30, 91, 168, 0.08);
+  box-shadow: 0 2px 20px rgba(176, 28, 46, 0.08);
 }
 
 .nav-buttons a {
@@ -129,7 +129,7 @@ body {
   background: var(--primary-color);
   color: white !important;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(30, 91, 168, 0.3);
+  box-shadow: 0 4px 15px rgba(176, 28, 46, 0.3);
 }
 
 .nav-buttons a::before {
@@ -172,8 +172,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(ellipse at 20% 30%, rgba(187, 143, 206, 0.2) 0%, transparent 40%),
-              radial-gradient(ellipse at 80% 70%, rgba(155, 89, 182, 0.15) 0%, transparent 40%);
+  background: radial-gradient(ellipse at 20% 30%, rgba(239, 95, 115, 0.22) 0%, transparent 40%),
+              radial-gradient(ellipse at 80% 70%, rgba(126, 22, 38, 0.20) 0%, transparent 40%);
   pointer-events: none;
 }
 
@@ -373,7 +373,7 @@ h3 {
 }
 
 .topic-item:hover {
-  background: #f3eef8;
+  background: #fbe9ec;
 }
 
 .topic-bullet {
@@ -388,7 +388,7 @@ h3 {
   border-radius: var(--border-radius);
   padding: 2rem;
   margin: 2rem 0;
-  box-shadow: 0 2px 10px rgba(92, 45, 145, 0.08);
+  box-shadow: 0 2px 10px rgba(176, 28, 46, 0.08);
 }
 
 .key-date-row {
@@ -396,7 +396,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 0;
-  border-bottom: 1px solid rgba(92, 45, 145, 0.1);
+  border-bottom: 1px solid rgba(176, 28, 46, 0.1);
 }
 
 .key-date-row:last-child {
@@ -494,7 +494,7 @@ h3 {
 
 .speaker-card {
   background: white;
-  border: 2px solid #e3f0ff;
+  border: 2px solid #f6d9de;
   border-radius: var(--border-radius);
   padding: 1.75rem;
   box-shadow: var(--card-shadow);
@@ -516,7 +516,7 @@ h3 {
 
 .speaker-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(30,91,168,0.2);
+  box-shadow: 0 8px 25px rgba(176,28,46,0.2);
   border-color: var(--accent-light);
 }
 
@@ -619,12 +619,12 @@ h3 {
   letter-spacing: 0.8px;
   color: var(--text-light);
   font-weight: 600;
-  border-bottom: 2px solid #e3f0ff;
+  border-bottom: 2px solid #f6d9de;
 }
 
 .schedule-table td {
   padding: 0.85rem 1rem;
-  border-bottom: 1px solid #eef3fa;
+  border-bottom: 1px solid #f7e4e7;
   vertical-align: top;
   line-height: 1.5;
 }
@@ -634,7 +634,7 @@ h3 {
 }
 
 .schedule-table tbody tr:hover {
-  background: #f4f8ff;
+  background: #fdeef0;
 }
 
 .time-cell {
@@ -748,7 +748,7 @@ h3 {
 }
 
 .material-item:hover {
-  background: #f3eef8;
+  background: #fbe9ec;
 }
 
 .material-item strong {
@@ -996,7 +996,7 @@ h3 {
 
   .schedule-table tr {
     padding: 0.75rem 1rem;
-    border-bottom: 1px solid #eef3fa;
+    border-bottom: 1px solid #f7e4e7;
   }
 
   .schedule-table tr:last-child {
@@ -1217,7 +1217,7 @@ hr {
 }
 
 .past-edition-item:hover {
-  background: #f3eef8;
+  background: #fbe9ec;
   transform: translateX(5px);
 }
 
@@ -1328,7 +1328,7 @@ hr {
 
 .paper-card {
   background: white;
-  border: 2px solid #e3f0ff;
+  border: 2px solid #f6d9de;
   border-radius: var(--border-radius);
   padding: 1.5rem;
   box-shadow: var(--card-shadow);
@@ -1350,7 +1350,7 @@ hr {
 
 .paper-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(30, 91, 168, 0.2);
+  box-shadow: 0 8px 25px rgba(176, 28, 46, 0.2);
   border-color: var(--accent-light);
 }
 
@@ -1369,7 +1369,7 @@ hr {
   line-height: 40px;
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  box-shadow: 0 4px 10px rgba(30, 91, 168, 0.2);
+  box-shadow: 0 4px 10px rgba(176, 28, 46, 0.2);
 }
 
 .paper-authors {
@@ -1423,7 +1423,7 @@ hr {
 .paper-link:hover {
   background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(30, 91, 168, 0.3);
+  box-shadow: 0 4px 12px rgba(176, 28, 46, 0.3);
 }
 
 @media (max-width: 768px) {
