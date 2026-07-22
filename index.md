@@ -106,7 +106,7 @@ and <a href="https://github.com/CMU-SAFARI/DRAM-Bender">DRAM Bender</a>, an FPGA
 </div>
 
 ---
-
+<!-- 
 ## Call for Papers {#cfp}
 
 This workshop includes invited talks on DRAM characterization and memory system simulation using Ramulator and DRAM Bender.
@@ -143,11 +143,11 @@ We especially encourage early-stage research, work-in-progress results, experime
   or <a href="mailto:ataberk.olgun@safari.ethz.ch">ataberk.olgun@safari.ethz.ch</a>.</p>
 </div>
 
----
+--- -->
 
 ## Tentative Agenda {#agenda}
 
-<div class="schedule-section">
+<!-- <div class="schedule-section">
   <div class="session-block">
     <div class="session-header">Morning Session I &nbsp;·&nbsp; 09:00-10:30</div>
     <table class="schedule-table">
@@ -226,12 +226,12 @@ We especially encourage early-stage research, work-in-progress results, experime
     </table>
   </div>
 
-  <div class="schedule-break">Lunch Break &nbsp;·&nbsp; 12:30-13:30</div>
-</div>
+  <div class="schedule-break">Lunch Break &nbsp;·&nbsp; 12:30-13:30</div> -->
+<!-- </div> -->
 
 ### Invited Speakers {#speakers}
 
-<div class="speakers-section">
+<!-- <div class="speakers-section">
   <div class="speaker-card">
     <div class="speaker-header">
       <div class="speaker-meta">
@@ -248,7 +248,7 @@ We especially encourage early-stage research, work-in-progress results, experime
     <div class="speaker-bio-label">Bio</div>
     <p class="speaker-bio">Dr. Antonino Tumeo received an MS degree in Informatic Engineering (2005) and a PhD in Computer Engineering (2009) from Politecnico di Milano in Italy. Since February 2011, he has been a research scientist in Pacific Northwest National Laboratory's (PNNL) Future Computing Technologies group. He joined PNNL in 2009 as a post-doctoral research associate. Previously, he was a post-doctoral researcher at Politecnico di Milano. His research focuses on custom systems for graph analytics, electronic design automation (including high-level synthesis), and in general hardware specialization, fostering the creation of an open hardware design ecosystem. Recently, he also started research in the area of analog computing, specifically focusing on chemical computing.</p>
   </div>
-</div>
+</div> -->
 
 ---
 
@@ -258,7 +258,7 @@ We especially encourage early-stage research, work-in-progress results, experime
   <h3>🔴 Can't attend in person? Join us live!</h3>
   <p>The tutorial will be livestreamed on YouTube, and a replay will be available afterwards. The stream link will be announced here closer to the event.</p>
   <p style="margin-top:1rem;font-weight:600;">Livestream link: <span class="slides-unavailable">To be announced</span></p>
-  <p>In the meantime, recordings of our previous editions are available on the <a href="https://www.youtube.com/@SAFARI-ETH-Zurich" target="_blank">SAFARI Research Group YouTube channel</a>.</p>
+  <p>In the meantime, recordings of our previous editions are available on the <a href="https://www.youtube.com/onurmutlulectures" target="_blank">SAFARI Research Group YouTube channel</a>.</p>
 </div>
 
 ---
