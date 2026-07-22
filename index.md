@@ -1,0 +1,370 @@
+---
+layout: default
+---
+
+<!-- Navigation Bar -->
+<nav class="nav-bar">
+  <a href="#" class="nav-brand">3rd Ramulator & DRAM Bender Tutorial @ ICS26</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#cfp">Call for Papers</a>
+    <a href="#agenda">Agenda</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#livestream">Livestream</a>
+    <a href="#organizers">Organizers</a>
+    <a href="#venue">Venue</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero-section">
+  <div class="hero-date">JULY 6<sup>th</sup>, 2026</div>
+  <h1 class="hero-title">3rd Ramulator & DRAM Bender Tutorial</h1>
+  <h2 class="hero-subtitle">Cutting-Edge Infrastructures<br/>for Real and Future Memory System Evaluation</h2>
+  <p class="hero-conference">In conjunction with the ACM International Conference on Supercomputing 2026 (ICS 2026)</p>
+  <p class="hero-location">Belfast, Northern Ireland, United Kingdom</p>
+  <div class="hero-buttons">
+    <a href="https://dipsa-qub.github.io/ICS2026-webpage/" class="btn btn-primary" target="_blank">Register Now</a>
+  </div>
+</div>
+
+---
+
+## About {#about}
+
+DRAM is predominantly used to build the main memory systems of modern computing
+devices. To improve performance, reliability, and security, it is critical to
+conduct both system-level simulation studies and experimental characterization
+of cutting-edge DRAM chips. Simulation enables understanding of the complex
+interactions between DRAM, emerging memory technologies, and modern
+applications, while real-chip characterization provides concrete insights into
+DRAM performance, robustness, latency, and power under different conditions
+(e.g., temperature and voltage).
+
+This tutorial+workshop will introduce simulation-based DRAM research together
+with experimental DRAM characterization using real DRAM chips. We will provide an extensive overview of: <a href="https://github.com/CMU-SAFARI/ramulator2">Ramulator</a>, a cycle-accurate and extensible main memory simulator,
+and <a href="https://github.com/CMU-SAFARI/DRAM-Bender">DRAM Bender</a>, an FPGA-based DRAM testing infrastructure.
+
+### Ramulator
+
+<span class="emph-nobreak">Ramulator</span> is an extensible main memory simulator that provides <span class="emph-nobreak">cycle-level performance models for a variety of commercial DRAM standards</span> (e.g., DDR3/4, LPDDR3/4, GDDR5, HBM), <span class="emph-nobreak">emerging memory technologies</span>, and <span class="emph-nobreak">academic proposals</span>. Its modular design enables easy integration of additional standards, technologies, and mechanisms. Ramulator is written in C++ and can be easily integrated into both full-system simulators, such as <span class="emph-nobreak">gem5</span>, as well as other microarchitectural simulators, <span class="emph-nobreak">zsim</span>, and <span class="emph-nobreak">Virtuoso</span>.
+
+<div class="papers-section">
+
+<div class="paper-card">
+  <div class="paper-icon">📄</div>
+  <div class="paper-authors">Haocong Luo, Yahya Can Tugrul, F. Nisa Bostanci, Ataberk Olgun, A. Giray Yaglikci, and Onur Mutlu</div>
+  <div class="paper-title">Ramulator 2.0: A Modern, Modular, and Extensible DRAM Simulator</div>
+  <span class="paper-venue">IEEE CAL, 2024</span>
+  <div class="paper-links">
+    <a href="https://github.com/CMU-SAFARI/ramulator2" class="paper-link" target="_blank">🔗 GitHub</a>
+    <a href="https://people.inf.ethz.ch/omutlu/pub/Ramulator2_arxiv23.pdf" class="paper-link" target="_blank">📖 Paper</a>
+  </div>
+</div>
+
+<div class="paper-card">
+  <div class="paper-icon">📄</div>
+  <div class="paper-authors">Yoongu Kim, Weikun Yang, and Onur Mutlu</div>
+  <div class="paper-title">Ramulator: A Fast and Extensible DRAM Simulator</div>
+  <span class="paper-venue">IEEE CAL, 2015</span>
+  <div class="paper-links">
+    <a href="https://github.com/CMU-SAFARI/ramulator" class="paper-link" target="_blank">🔗 GitHub</a>
+    <a href="https://users.ece.cmu.edu/~omutlu/pub/ramulator_dram_simulator-ieee-cal15.pdf" class="paper-link" target="_blank">📖 Paper</a>
+  </div>
+</div>
+
+</div>
+
+### DRAM Bender
+
+<span class="emph-nobreak">DRAM Bender</span> (based on SoftMC), is <span class="emph-nobreak">an FPGA-based DRAM testing infrastructure</span>. DRAM Bender provides <span class="emph-nobreak">simple and intuitive high-level programming interfaces</span> in C++ and Python. A user of DRAM Bender writes DRAM test programs in a high-level language. DRAM Bender's programmer interface automatically translates these programs into low-level DRAM Bender instructions (e.g., DRAM commands, arithmetic, memory, control-flow instructions) on the FPGA. Thereby, DRAM Bender enables users with diverse technical backgrounds to <span class="emph-nobreak">rapidly characterize DRAM without requiring logic design expertise</span>.
+
+<div class="papers-section">
+
+<div class="paper-card">
+  <div class="paper-icon">📄</div>
+  <div class="paper-authors">Ataberk Olgun, Hasan Hassan, A. Giray Yaglikci, Yahya Can Tugrul, Lois Orosa, Haocong Luo, Minesh Patel, Oguz Ergin, Onur Mutlu</div>
+  <div class="paper-title"> "DRAM Bender: An Extensible and Versatile FPGA-based Infrastructure to Easily Test State-of-the-art DRAM Chips"</div>
+  <span class="paper-venue">IEEE TCAD, 2023</span>
+  <div class="paper-links">
+    <a href="https://github.com/CMU-SAFARI/DRAM-Bender" class="paper-link" target="_blank">🔗 GitHub</a>
+    <a href="https://arxiv.org/pdf/2211.05838.pdf" class="paper-link" target="_blank">📖 Paper</a>
+  </div>
+</div>
+
+<div class="paper-card">
+  <div class="paper-icon">📄</div>
+  <div class="paper-authors">Hasan Hassan, Nandita Vijaykumar, Samira Khan, Saugata Ghose, Kevin Chang, Gennady Pekhimenko, Donghyuk Lee, Oguz Ergin, and Onur Mutlu</div>
+  <div class="paper-title">SoftMC: A Flexible and Practical Open-Source Infrastructure for Enabling Experimental DRAM Studies</div>
+  <span class="paper-venue">HPCA, 2017</span>
+  <div class="paper-links">
+    <a href="https://github.com/CMU-SAFARI/SoftMC" class="paper-link" target="_blank">🔗 GitHub</a>
+    <a href="https://people.inf.ethz.ch/omutlu/pub/softMC_hpca17.pdf" class="paper-link" target="_blank">📖 Paper</a>
+  </div>
+</div>
+
+</div>
+
+---
+
+## Call for Papers {#cfp}
+
+This workshop includes invited talks on DRAM characterization and memory system simulation using Ramulator and DRAM Bender.
+
+We are soliciting extended abstracts to be included in the conference proceedings. Attendees interested in delivering a talk should submit a brief proposal with an extended abstract of their work (along with a brief bio). We invite submissions related to (but not limited to) the following topics:
+
+### Topics of Interest
+
+<div class="topics-grid">
+  <div class="topic-item"><span class="topic-bullet">▹</span> New features, extensions, or enhancements to Ramulator</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> Use of Ramulator for evaluating memory performance, emerging memory technologies, or architectural mechanisms</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> DRAM characterization studies conducted using DRAM Bender</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> Reliability, failure analysis, or security studies using DRAM Bender</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> Cross-layer research that combines memory system simulation (Ramulator) with real-chip DRAM characterization (DRAM Bender)</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> Benchmarks, workloads, or methodologies for DRAM studies using Ramulator or DRAM Bender</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> Open-source tools, software extensions, datasets, or reusable components built on top of Ramulator or DRAM Bender</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> Case studies demonstrating how Ramulator or DRAM Bender enabled new research insights or the validation of ideas</div>
+</div>
+
+We especially encourage early-stage research, work-in-progress results, experimental methodologies, and community contributions that will benefit researchers working with Ramulator or DRAM Bender.
+
+### Submission Guidelines
+
+<div class="topics-grid">
+  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Page limit:</strong> 4 pages</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Format:</strong> <a href="https://dipsa-qub.github.io/ICS2026-webpage/for-authors/information.html">ACM ICS 2026 template</a></div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Deadline:</strong> 21 May, 2026 (AoE)</div>
+  <div class="topic-item"><span class="topic-bullet">▹</span> <strong>Submission form:</strong> <a href="https://forms.gle/Hfa2pfGD7BS7jXJi6">https://forms.gle/Hfa2pfGD7BS7jXJi6</a></div>
+</div>
+
+<div class="contact-section">
+  <p>Questions about submissions? Contact
+  <a href="mailto:nisa.bostanci@safari.ethz.ch">nisa.bostanci@safari.ethz.ch</a>
+  or <a href="mailto:ataberk.olgun@safari.ethz.ch">ataberk.olgun@safari.ethz.ch</a>.</p>
+</div>
+
+---
+
+## Tentative Agenda {#agenda}
+
+<div class="schedule-section">
+  <div class="session-block">
+    <div class="session-header">Morning Session I &nbsp;·&nbsp; 09:00-10:30</div>
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Duration</th>
+          <th>Speaker</th>
+          <th>Title</th>
+          <th>Materials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="time-cell">09:00-09:05</td>
+          <td class="duration-cell">5 min</td>
+          <td class="speaker-cell">Ataberk Olgun</td>
+          <td>Logistics</td>
+          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
+        </tr>
+        <tr>
+          <td class="time-cell">09:05-09:50</td>
+          <td class="duration-cell">45 min</td>
+          <td class="speaker-cell">Onur Mutlu</td>
+          <td>Tools for Evaluating Memory and Memory-Centric Computing DRAM, Storage, Virtual Memory</td>
+          <td class="slides-cell"><a href="https://people.inf.ethz.ch/omutlu/pub/onur-R&DB-Tutorial-ToolsForEvaluatingMemory-6-July-2026.pptx" target="_blank" rel="noopener">Download</a></td>
+        </tr>
+        <tr>
+          <td class="time-cell">09:50-10:30</td>
+          <td class="duration-cell">40 min</td>
+          <td class="speaker-cell">Ataberk Olgun</td>
+          <td>DRAM Bender (Introduction + Research Highlights)</td>
+          <td class="slides-cell"><a href="https://olgunataberk.github.io/rndb-ics26/slides/rndb_workshop_ataberk_ics26.pptx" target="_blank" rel="noopener">Download</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="schedule-break">Coffee Break &nbsp;·&nbsp; 10:30-11:00</div>
+
+  <div class="session-block">
+    <div class="session-header">Morning Session II &nbsp;·&nbsp; 11:00-12:30</div>
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Duration</th>
+          <th>Speaker</th>
+          <th>Title</th>
+          <th>Materials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="time-cell">11:00-11:20</td>
+          <td class="duration-cell">20 min</td>
+          <td class="speaker-cell">Antonino Tumeo</td>
+          <td>Realistic DRAM Timing for HLS: Closing the Memory Fidelity Gap with Ramulator-Backed Co-Simulation</td>
+          <td class="slides-cell"><a href="https://olgunataberk.github.io/rndb-ics26/slides/antonino_slides.pdf" target="_blank" rel="noopener">Download</a></td>
+        </tr>
+        <tr>
+          <td class="time-cell">11:20-11:50</td>
+          <td class="duration-cell">30 min</td>
+          <td class="speaker-cell">Haocong Luo</td>
+          <td>Introduction to Ramulator and Memory System Simulation</td>
+          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
+        </tr>
+        <tr>
+          <td class="time-cell">11:50-12:30</td>
+          <td class="duration-cell">40 min</td>
+          <td class="speaker-cell">Haocong Luo</td>
+          <td>Deep Dive into Ramulator 2.1</td>
+          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="schedule-break">Lunch Break &nbsp;·&nbsp; 12:30-13:30</div>
+</div>
+
+### Invited Speakers {#speakers}
+
+<div class="speakers-section">
+  <div class="speaker-card">
+    <div class="speaker-header">
+      <div class="speaker-meta">
+        <div class="speaker-name">Dr. Antonino Tumeo</div>
+        <div class="speaker-affiliation">Research Scientist, Pacific Northwest National Laboratory (PNNL)</div>
+      </div>
+    </div>
+    <div class="speaker-talk-title">Realistic DRAM Timing for HLS: Closing the Memory Fidelity Gap with Ramulator-Backed Co-Simulation</div>
+    <div class="speaker-abstract-label">Abstract</div>
+    <p class="speaker-abstract">High-Level Synthesis (HLS) tools typically model off-chip memory using fixed-latency stubs, masking the dominant performance factors of real DRAM systems - row activations, bank conflicts, scheduling effects, and refresh interference. This memory fidelity gap causes cycle estimates to deviate by 1.5-2.5x on common compute kernels and by nearly 2x on parallel graph workloads, often misleading design-space exploration and delaying memory-sensitive decisions until FPGA deployment.</p>
+    <p class="speaker-abstract">We present a cycle-accurate DRAM co-simulation framework that replaces Bambu's fixed-latency memory backend with Ramulator-2.0 through a protocol-faithful AXI4 bridge. Our design introduces a non-blocking request/completion interface, tag-preserving out-of-order response handling, and bidirectional back-pressure control, all integrated through SystemVerilog DPI-C and IPC layers without modifying upstream HLS flow. The combined system preserves functional correctness while exposing realistic DRAM timing and concurrency behavior.</p>
+    <p class="speaker-abstract">Evaluated on 13 PolyBench kernels, multiple MachSuite workloads, and SPARTA-generated multi-threaded graph accelerators targeting a Xilinx Alveo U250 and a matched DDR4-2400R model, our co-simulation reveals that fixed-delay models either substantially under-predict or over-predict runtime - and that no single scalar delay can match true DRAM behavior across kernels or parallelism levels. Under maximum spatial x temporal parallelism, fixed-delay models converge to nearly identical results yet remain approximately 2x too optimistic, exposing structural memory-system effects (controller queuing, bank conflicts, refresh contention) that simple per-access constants cannot capture.</p>
+    <p class="speaker-abstract">Our results demonstrate that realistic DRAM timing is essential for trustworthy HLS performance estimation, and that cycle-accurate memory co-simulation can replace many costly FPGA iterations during accelerator design.</p>
+    <div class="speaker-bio-label">Bio</div>
+    <p class="speaker-bio">Dr. Antonino Tumeo received an MS degree in Informatic Engineering (2005) and a PhD in Computer Engineering (2009) from Politecnico di Milano in Italy. Since February 2011, he has been a research scientist in Pacific Northwest National Laboratory's (PNNL) Future Computing Technologies group. He joined PNNL in 2009 as a post-doctoral research associate. Previously, he was a post-doctoral researcher at Politecnico di Milano. His research focuses on custom systems for graph analytics, electronic design automation (including high-level synthesis), and in general hardware specialization, fostering the creation of an open hardware design ecosystem. Recently, he also started research in the area of analog computing, specifically focusing on chemical computing.</p>
+  </div>
+</div>
+
+---
+
+## Livestream {#livestream}
+
+<div class="livestream-section">
+  <h3>🔴 Can't attend in person? Join us live!</h3>
+  <p>The tutorial will be livestreamed on YouTube. A replay will also be available afterwards.</p>
+  
+  <div class="youtube-embed">
+    <iframe src="https://www.youtube.com/embed/9-_8c79oR3E?si=Q_nQIfLZMe_QZmAv" title="Ramulator & DRAM Bender Tutorial Livestream" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  
+  <a href="https://youtu.be/9-_8c79oR3E" class="livestream-link" target="_blank">▶️ Watch on YouTube</a>
+</div>
+
+---
+
+## Organizers {#organizers}
+
+<div class="organizers-section">
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/nisa-linkedIN.jpeg" alt="F. Nisa Bostanci">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://nisabostanci.github.io/" target="_blank">F. Nisa Bostanci</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">F. Nisa Bostanci is a 4th-year PhD student in the SAFARI Research Group at ETH Zurich, under the supervision of Prof. Onur Mutlu. She is broadly interested in computer architecture and, more specifically, in security, reliability, and safety (robustness) of memory systems, emerging memory and computation paradigms, including Processing-In-Memory architectures (PIM), and designing effective and efficient solutions to address robustness issues in modern and future systems. Her recent works uncover and mitigate new security vulnerabilities that emerge with the adoption of read disturbance solutions and PIM architectures to aid in designing robust future systems.
+</p>
+    <div class="organizer-email">📧 <a href="mailto:nisa.bostanci@safari.ethz.ch">nisa.bostanci@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://kratos4.ethz.ch/wp-content/uploads/ataberj.png" alt="Ataberk Olgun">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://ataberkolgun.com/" target="_blank">Ataberk Olgun</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Ataberk Olgun is a senior PhD student at ETH Zurich, working with Prof. Onur Mutlu. His broad research interests include designing secure, high-performance, and energy-efficient DRAM architectures. Especially with the worsening RowHammer vulnerability, it is increasingly difficult to design new DRAM architectures that satisfy all three characteristics. His current research focuses on i) deeply understanding and ii) efficiently mitigating the RowHammer vulnerability in modern systems. </p>
+    <div class="organizer-email">📧 <a href="mailto:ataberk.olgun@safari.ethz.ch">ataberk.olgun@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2020/06/Haocong_crop.jpg" alt="Haocong Luo">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="#" target="_blank">Haocong Luo</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Haocong Luo is a PhD student in the SAFARI Research Group at ETH Zurich under the supervision of Prof.Onur Mutlu. His current broader research interests are 1) understanding and improving the performance and reliability of DRAM-based memory systems, 2) accelerating BVH traversals to enable high-performance path-traced rendering algorithms, and 3) designing efficient memory architectures and systems for Large Language Models. </p>
+    <div class="organizer-email">📧 <a href="mailto:haocong.luo@safari.ethz.ch">haocong.luo@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://kratos4.ethz.ch/wp-content/uploads/photo_ismail.png" alt="Ismail Emir Yuksel">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://www.linkedin.com/in/ismail-emir-yuksel/" target="_blank">Ismail Emir Yuksel</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Ismail Emir Yuksel is a 2nd-year PhD student in the SAFARI Research Group at ETH Zurich under the supervision of Prof. Onur Mutlu. His current broader research interests are in computer architecture, processing-in-memory, and hardware security, focusing on understanding, enhancing, and exploiting fundamental computational capabilities of modern DRAM architectures. His recent publications show that commodity DRAM chips, without any modification to the chip itself (only with modifications to the memory controller), are able to execute bulk-bitwise computation and data movement operations (including NAND, NOR, NOT, AND, OR, MAJority, multi-row copy, and initialization functions) in a reasonably robust manner. </p>
+    <div class="organizer-email">📧 <a href="mailto:ismail.yuksel@safari.ethz.ch">ismail.yuksel@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://people.inf.ethz.ch/omutlu/img/OnurMutlu_eth.jpg" alt="Prof. Onur Mutlu">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://people.inf.ethz.ch/omutlu/" target="_blank">Professor Onur Mutlu</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Onur Mutlu is a Professor of Computer Science at ETH Zurich. He previously held the William D. and Nancy W. Strecker Early Career Professorship at Carnegie Mellon University. His research interests are in computer architecture, computing systems, hardware security, memory & storage systems, and bioinformatics, with a major focus on designing fundamentally energy-efficient, high-performance, and robust computing systems. He started the Computer Architecture Group at Microsoft Research (2006-2009), and held product, research and visiting positions at Intel Corporation, Advanced Micro Devices, VMware, Google, and Stanford University. He received various honors for his research, including the 2025 IEEE Computer Society Harry H. Goode Memorial Award “for seminal contributions to computer architecture research and practice, especially in memory systems.” He is an ACM Fellow, IEEE Fellow, and an elected member of the Academy of Europe. He enjoys teaching, mentoring, and enabling & democratizing access to high-quality research and education. He has supervised 25 PhD graduates, many of whom received major dissertation awards, 18 postdoctoral trainees, and more than 70 Master’s and Bachelor’s students. His computer architecture and digital logic design course lectures and materials are freely available on YouTube and his research group makes a wide variety of artifacts freely available online. For more information, please see his webpage at https://people.inf.ethz.ch/omutlu/.  
+</p>
+    <div class="organizer-email">📧 <a href="mailto:onur.mutlu@safari.ethz.ch">onur.mutlu@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+</div>
+
+## Event Location {#venue}
+
+<div class="event-grid">
+  <div class="event-info">
+    <h3>Venue</h3>
+    <p><strong>Assembly Buildings Conference Centre</strong></p>
+    <p>2-10 Fisherwick Place<br>Belfast, BT1 6DW<br>Northern Ireland, United Kingdom</p>
+    <p>The tutorial will be held in conjunction with <a href="https://dipsa-qub.github.io/ICS2026-webpage/" target="_blank">ICS 2026</a>.</p>
+    <p>For registration and accommodation information, please visit the <a href="https://dipsa-qub.github.io/ICS2026-webpage/" target="_blank">ICS 2026 website</a>.</p>
+  </div>
+  <div class="event-map">
+    <iframe src="https://www.google.com/maps?q=Assembly%20Buildings%20Conference%20Centre%202-10%20Fisherwick%20Place%20Belfast%20BT1%206DW&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+---
+
+## Contact {#contact}
+
+<div class="contact-section">
+  <p>For questions about the tutorial, please contact the organizers:</p>
+  <p><strong>General Inquiries:</strong> <a href="mailto:nisa.bostanci@safari.ethz.ch">nisa.bostanci@safari.ethz.ch</a> and <a href="mailto:ataberk.olgun@safari.ethz.ch">ataberk.olgun@safari.ethz.ch</a></p>
+  <p><strong>SAFARI Research Group:</strong> <a href="https://safari.ethz.ch/" target="_blank">safari.ethz.ch</a></p>
+</div>
+
+---
+
+<div class="footer-section">
+  <p><b>Ramulator & DRAM Bender Tutorial@ICS'26</b> | Cutting-Edge Infrastructures<br>for Real and Future Memory System Evaluation Tutorial</p>
+  <p>In conjunction with <a href="https://dipsa-qub.github.io/ICS2026-webpage/" target="_blank">ICS 2026</a> | Belfast, Northern Ireland, United Kingdom</p>
+</div>
