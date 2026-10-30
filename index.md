@@ -9,7 +9,6 @@ layout: default
     <a href="#about">About</a>
     <a href="#cfp">Call for Papers</a>
     <a href="#agenda">Agenda</a>
-    <a href="#speakers">Speakers</a>
     <a href="#livestream">Livestream</a>
     <a href="#organizers">Organizers</a>
     <a href="#venue">Venue</a>
@@ -147,9 +146,9 @@ We especially encourage early-stage research, work-in-progress results, experime
 
 ## Tentative Agenda {#agenda}
 
-<!-- <div class="schedule-section">
+<div class="schedule-section">
   <div class="session-block">
-    <div class="session-header">Morning Session I &nbsp;·&nbsp; 09:00-10:30</div>
+    <div class="session-header">Afternoon Session I &nbsp;·&nbsp; 13:00-15:00</div>
     <table class="schedule-table">
       <thead>
         <tr>
@@ -157,39 +156,35 @@ We especially encourage early-stage research, work-in-progress results, experime
           <th>Duration</th>
           <th>Speaker</th>
           <th>Title</th>
-          <th>Materials</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="time-cell">09:00-09:05</td>
-          <td class="duration-cell">5 min</td>
-          <td class="speaker-cell">Ataberk Olgun</td>
-          <td>Logistics</td>
-          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
-        </tr>
-        <tr>
-          <td class="time-cell">09:05-09:50</td>
-          <td class="duration-cell">45 min</td>
+          <td class="time-cell">13:00-14:00</td>
+          <td class="duration-cell">1 hour</td>
           <td class="speaker-cell">Onur Mutlu</td>
-          <td>Tools for Evaluating Memory and Memory-Centric Computing DRAM, Storage, Virtual Memory</td>
-          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
+          <td>Tools for Evaluating Memory and Memory-Centric Computing<br>DRAM, Storage, Virtual Memory</td>
         </tr>
         <tr>
-          <td class="time-cell">09:50-10:30</td>
-          <td class="duration-cell">40 min</td>
-          <td class="speaker-cell">Ataberk Olgun</td>
-          <td>DRAM Bender (Introduction + Research Highlights)</td>
-          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
+          <td class="time-cell">14:00-14:40</td>
+          <td class="duration-cell">40 mins</td>
+          <td class="speaker-cell">F. Nisa Bostanci</td>
+          <td>Introduction to Ramulator and Memory System Simulation + Research Highlights</td>
+        </tr>
+        <tr>
+          <td class="time-cell">14:40-15:00</td>
+          <td class="duration-cell">20 mins</td>
+          <td class="speaker-cell">Haocong Luo</td>
+          <td>Ramulator 2.1 Introduction</td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  <div class="schedule-break">Coffee Break &nbsp;·&nbsp; 10:30-11:00</div>
+  <div class="schedule-break">Coffee Break &nbsp;·&nbsp; 15:00-15:30</div>
 
   <div class="session-block">
-    <div class="session-header">Morning Session II &nbsp;·&nbsp; 11:00-12:30</div>
+    <div class="session-header">Afternoon Session II &nbsp;·&nbsp; 15:30-17:15</div>
     <table class="schedule-table">
       <thead>
         <tr>
@@ -197,58 +192,25 @@ We especially encourage early-stage research, work-in-progress results, experime
           <th>Duration</th>
           <th>Speaker</th>
           <th>Title</th>
-          <th>Materials</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="time-cell">11:00-11:20</td>
-          <td class="duration-cell">20 min</td>
-          <td class="speaker-cell">Antonino Tumeo</td>
-          <td>Realistic DRAM Timing for HLS: Closing the Memory Fidelity Gap with Ramulator-Backed Co-Simulation</td>
-          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
+          <td class="time-cell">15:30-16:15</td>
+          <td class="duration-cell">45 mins</td>
+          <td class="speaker-cell">Ataberk Olgun</td>
+          <td>DRAM Bender Introduction + Research Highlights</td>
         </tr>
         <tr>
-          <td class="time-cell">11:20-11:50</td>
-          <td class="duration-cell">30 min</td>
-          <td class="speaker-cell">Haocong Luo</td>
-          <td>Introduction to Ramulator and Memory System Simulation</td>
-          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
-        </tr>
-        <tr>
-          <td class="time-cell">11:50-12:30</td>
-          <td class="duration-cell">40 min</td>
-          <td class="speaker-cell">Haocong Luo</td>
-          <td>Deep Dive into Ramulator 2.1</td>
-          <td class="slides-cell"><span class="slides-unavailable">-</span></td>
+          <td class="time-cell">16:15-17:15</td>
+          <td class="duration-cell">1 hour</td>
+          <td class="speaker-cell">TBD</td>
+          <td>Ramulator and DRAM Bender Hands-on Demonstration</td>
         </tr>
       </tbody>
     </table>
   </div>
-
-  <div class="schedule-break">Lunch Break &nbsp;·&nbsp; 12:30-13:30</div> -->
-<!-- </div> -->
-
-### Invited Speakers {#speakers}
-
-<!-- <div class="speakers-section">
-  <div class="speaker-card">
-    <div class="speaker-header">
-      <div class="speaker-meta">
-        <div class="speaker-name">Dr. Antonino Tumeo</div>
-        <div class="speaker-affiliation">Research Scientist, Pacific Northwest National Laboratory (PNNL)</div>
-      </div>
-    </div>
-    <div class="speaker-talk-title">Realistic DRAM Timing for HLS: Closing the Memory Fidelity Gap with Ramulator-Backed Co-Simulation</div>
-    <div class="speaker-abstract-label">Abstract</div>
-    <p class="speaker-abstract">High-Level Synthesis (HLS) tools typically model off-chip memory using fixed-latency stubs, masking the dominant performance factors of real DRAM systems - row activations, bank conflicts, scheduling effects, and refresh interference. This memory fidelity gap causes cycle estimates to deviate by 1.5-2.5x on common compute kernels and by nearly 2x on parallel graph workloads, often misleading design-space exploration and delaying memory-sensitive decisions until FPGA deployment.</p>
-    <p class="speaker-abstract">We present a cycle-accurate DRAM co-simulation framework that replaces Bambu's fixed-latency memory backend with Ramulator-2.0 through a protocol-faithful AXI4 bridge. Our design introduces a non-blocking request/completion interface, tag-preserving out-of-order response handling, and bidirectional back-pressure control, all integrated through SystemVerilog DPI-C and IPC layers without modifying upstream HLS flow. The combined system preserves functional correctness while exposing realistic DRAM timing and concurrency behavior.</p>
-    <p class="speaker-abstract">Evaluated on 13 PolyBench kernels, multiple MachSuite workloads, and SPARTA-generated multi-threaded graph accelerators targeting a Xilinx Alveo U250 and a matched DDR4-2400R model, our co-simulation reveals that fixed-delay models either substantially under-predict or over-predict runtime - and that no single scalar delay can match true DRAM behavior across kernels or parallelism levels. Under maximum spatial x temporal parallelism, fixed-delay models converge to nearly identical results yet remain approximately 2x too optimistic, exposing structural memory-system effects (controller queuing, bank conflicts, refresh contention) that simple per-access constants cannot capture.</p>
-    <p class="speaker-abstract">Our results demonstrate that realistic DRAM timing is essential for trustworthy HLS performance estimation, and that cycle-accurate memory co-simulation can replace many costly FPGA iterations during accelerator design.</p>
-    <div class="speaker-bio-label">Bio</div>
-    <p class="speaker-bio">Dr. Antonino Tumeo received an MS degree in Informatic Engineering (2005) and a PhD in Computer Engineering (2009) from Politecnico di Milano in Italy. Since February 2011, he has been a research scientist in Pacific Northwest National Laboratory's (PNNL) Future Computing Technologies group. He joined PNNL in 2009 as a post-doctoral research associate. Previously, he was a post-doctoral researcher at Politecnico di Milano. His research focuses on custom systems for graph analytics, electronic design automation (including high-level synthesis), and in general hardware specialization, fostering the creation of an open hardware design ecosystem. Recently, he also started research in the area of analog computing, specifically focusing on chemical computing.</p>
-  </div>
-</div> -->
+</div>
 
 ---
 
