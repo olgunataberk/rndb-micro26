@@ -218,10 +218,15 @@ We especially encourage early-stage research, work-in-progress results, experime
 
 <div class="livestream-section">
   <h3>🔴 Can't attend in person? Join us live!</h3>
-  <p>The tutorial will be livestreamed on YouTube, and a replay will be available afterwards. The stream link will be announced here closer to the event.</p>
-  <p style="margin-top:1rem;font-weight:600;">Livestream link: <span class="slides-unavailable">To be announced</span></p>
-  <p>In the meantime, recordings of our previous editions are available on the <a href="https://www.youtube.com/onurmutlulectures" target="_blank">SAFARI Research Group YouTube channel</a>.</p>
+  <p>The tutorial will be livestreamed on YouTube. A replay will also be available afterwards.</p>
+  
+  <div class="youtube-embed">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pdQjU9v_4YA?si=kBlZkYvGmIu3ZOZd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  
+  <a href="https://www.youtube.com/live/pdQjU9v_4YA?si=d8ws7RjKjCp7FY2b" class="livestream-link" target="_blank">▶️ Watch on YouTube</a>
 </div>
+
 
 ---
 
